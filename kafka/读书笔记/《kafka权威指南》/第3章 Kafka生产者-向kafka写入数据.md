@@ -1,5 +1,21 @@
 # 第3章 Kafka生产者-向kafka写入数据
 
+## 3.1 生产者概述
+
+下图为生产者向kafka发送消息的步骤：
+
+![image-20211212172550960](https://typora-gao-pic.oss-cn-beijing.aliyuncs.com/image-20211212172550960.png)
+
+我们从创建 ProducerRecord 对象开始，ProducerRecord 对象需要包含目标主题和要发送的内容。我们还可以指定键或分区。在发送 ProducerRecord 对象时，生产者要先把键和值对象序列化成字节数组，这样它们才能够在网络上传输。
+
+接下来，数据被传给分区器。如果之前在 ProducerRecord 对象里指定了分区，那么分区器就不会再做任何事情，直接把指定的分区返回。如果没有指定分区，那么分区器会根据 ProducerRecord 对象的键来选择一个分区。选好分区以后 ，生产者就知道该往哪个主题和分区发送这条记录了。紧接着，这条记录被添加到一个记录批次里，这个批次里的所有消息会被发送到相同的主题和分区上。有一个独立的线程负责把这些记录批次发送到相应的 broker 上。
+
+服务器在收到这些消息时会返回一个响应。如果消息成功写入 Kafka ，就返回一个 RecordMetaData 对象，它包含了主题和分区信息，以及记录在分区里的偏移量。如果写入失败，则会返回一个错误。生产者在收到错误之后会尝试重新发送消息，几次之后如果还是失败， 就返回错误信息。
+
+## 3.2 创建kafka生产者
+
+
+
 ## 3.5 序列化器
 
 ### 3.5.2 使用Avro序列化
@@ -28,7 +44,9 @@ ProducerRecord<Integer, String> record = new ProducerRecord<>("CustomerCountry",
 
 只有在不改变分区数量的情况下，键与分区之间的映射才能保持不变。如果要使用键来映射分区，最好在创建主题的时候就把分区规划好而且永远不要增加新的分区。
 
-自定义分区器：
+**实现自定义分区策略：**
 
-![](/Users/gaobo/Documents/Typora/typora-pic/iShot2021-11-06 19.27.44-6212904.png)
+![image-20211212170836621](https://typora-gao-pic.oss-cn-beijing.aliyuncs.com/image-20211212170836621.png)
 
+1. Partitioner 接口包含了 conflgure、 patition和 close 这3个方法。 这里只实现patition方法，不过我们真不应该在patition方法里硬编码客户的名字 ，而应通过configure 方法传进来。
+2. 我们只接受字符串作为键，如果不是字符串，就抛出异常
