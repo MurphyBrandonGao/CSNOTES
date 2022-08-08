@@ -118,7 +118,7 @@ for (String str : strs) {
 
 ![474.一和零](https://typora-gao-pic.oss-cn-beijing.aliyuncs.com/20210120111201512.jpg)
 
-以上动规五部曲分析完毕，C++代码如下：
+以上动规五部曲分析完毕，代码如下：
 
 ```java
 class Solution {
