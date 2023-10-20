@@ -12,11 +12,30 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'MurphyGao Blog', // 文档标题，会显示在侧边栏顶部
+      repo: 'https://github.com/MurphyBrandonGao/CSNOTES', // 右上角Github图标链接
+      search: {
+            paths: 'auto',
+            placeholder: '🔍 Type to search ',
+            noData: '😞 No Results! ',
+            depth: 6
+        },
+      // subMaxLevel: 2,
+      coverpage: true,
+      notFoundPage: true
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 一键复制插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- 代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-shell-session.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-http.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css">
 </body>
 </html>
