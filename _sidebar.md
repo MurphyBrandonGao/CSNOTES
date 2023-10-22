@@ -50,7 +50,7 @@
 
 * 调优
 
-    - [MySQL调优](/调优/MySQL调优/调优目录.md)
+    - [MySQL调优](/./MySQL调优/调优目录.md)
     - JVM调优
 
 * Zookeeper
