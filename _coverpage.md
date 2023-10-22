@@ -2,6 +2,8 @@
 
 # **MurphyGao's Blog**
 
+> 分享技术，热爱技术
+
 [GitHub](https://github.com/MurphyBrandonGao/CSNOTES)
 [开始阅读](https://murphybrandongao.github.io/CSNOTES/#/)
 
