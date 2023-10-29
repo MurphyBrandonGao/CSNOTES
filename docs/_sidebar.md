@@ -7,11 +7,10 @@
 
 * Redis
 
-    - [Java 基础](./docs/b-1Java基础精选面试题解.md)
-    - [Java 集合](./docs/b-2Java集合精选面试题解.md)
-    - [Java 并发](./docs/b-3Java并发精选面试题解.md)
-    - [Java GC](./docs/b-4JavaGC精选面试题解.md)
-
+    - [极客](/./docs/b-1Java基础精选面试题解.md)
+    - [水滴与银弹](./docs/b-2Java集合精选面试题解.md)
+    - [读书笔记]()
+    
 * Kafka
 
     - [Java 基础](./docs/b-1Java基础精选面试题解.md)
