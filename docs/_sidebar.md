@@ -7,24 +7,20 @@
 
 * Redis
 
-    - [极客](/./Redis/极客/Redis核心技术与实战/Redis核心技术目录.md)
+    - [Redis核心技术与实战](/./Redis/极客/Redis核心技术与实战/Redis核心技术目录.md)
     - [水滴与银弹](/./Redis/水滴与银弹/水滴与银弹目录.md)
     - [读书笔记]()
     
 * Kafka
 
-    - [Java 基础](./docs/b-1Java基础精选面试题解.md)
-    - [Java 集合](./docs/b-2Java集合精选面试题解.md)
-    - [Java 并发](./docs/b-3Java并发精选面试题解.md)
-    - [Java GC](./docs/b-4JavaGC精选面试题解.md)
-
+    - [Kafka权威指南](/kafka/读书笔记/《kafka权威指南》/kafka权威指南目录.md)
+    - [深入理解kafka核心设计与实现](/kafka/读书笔记/《深入理解Kafka核心设计与实践原理》/深入理解kafka目录.md)
+    - [面试](/kafka/面试.md)
+    
 * MySQL
 
-    - [Java 基础](./docs/b-1Java基础精选面试题解.md)
-    - [Java 集合](./docs/b-2Java集合精选面试题解.md)
-    - [Java 并发](./docs/b-3Java并发精选面试题解.md)
-    - [Java GC](./docs/b-4JavaGC精选面试题解.md)
-
+    - [MySQL实战45讲](/MySQL/MySQL实战45讲/MySQL实战45讲目录.md)
+    
 * RPC
 
     - [Java 基础](./docs/b-1Java基础精选面试题解.md)
