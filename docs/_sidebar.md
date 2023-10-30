@@ -1,15 +1,8 @@
-* Java
-
-  - [Java 基础](./docs/b-1Java基础精选面试题解.md)
-  - [Java 集合](./docs/b-2Java集合精选面试题解.md)
-  - [Java 并发](./docs/b-3Java并发精选面试题解.md)
-  - [Java GC](./docs/b-4JavaGC精选面试题解.md)
-
 * Redis
 
     - [Redis核心技术与实战](/./Redis/极客/Redis核心技术与实战/Redis核心技术目录.md)
     - [水滴与银弹](/./Redis/水滴与银弹/水滴与银弹目录.md)
-    - [读书笔记]()
+    - 读书笔记
     
 * Kafka
 
@@ -32,9 +25,15 @@
     
 * 微服务
 
+    - [从零开始学习微服务](/微服务/微服务目录.md)
+
 * 设计模式
 
+    - [设计模式之美](/Design Pattern/设计模式之美/设计模式目录.md)
+
 * 分布式系统
+
+    - [数据密集型应用系统设计]()
 
 * 调优
 
@@ -44,6 +43,8 @@
 * Zookeeper
 
 * 高并发系统设计
+
+* Java
 
   
 
