@@ -5,7 +5,7 @@
 
 ## [作者介绍](https://github.com/yessimida/interview-of-legends/tree/master#作者介绍)
 
-我是 MurphyGao，某互联网大厂程序员。
+我是 MurphyGao，某互联网大厂程序员，先后在小米、百度、滴滴任职过，在北京生活了两年半，现居杭州。
 
 喜欢写点东西，维护个人公众号：「程序员MurphyGao」，专注分享后端技术，偶尔也会碎碎念，欢迎关注。
 
@@ -13,11 +13,11 @@
 
 ## [关于更新](https://github.com/yessimida/interview-of-legends/tree/master#关于更新)
 
-面试季会更新的比较频繁，不过公众号肯定是每周都会更新的。
+本网站会持续维护与更新，面试季会更新的比较频繁，不过公众号肯定是每周都会更新的。
 
 ## [如何贡献](https://github.com/yessimida/interview-of-legends/tree/master#如何贡献)
 
 我当然希望更多的人参与啦，如果有问题或者看到错误可以提 issue 或者 pr
 
-当然也可以加我微信交流：gao1042046806
+当然也可以加我微信交流与合作：gao1042046806
 
