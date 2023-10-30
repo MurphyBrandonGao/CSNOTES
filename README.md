@@ -7,7 +7,7 @@
 
 我是 MurphyGao，某互联网大厂程序员。
 
-喜欢写点东西，维护个人公众号：「程序员小高」，专注分享后端技术，偶尔也会碎碎念，欢迎关注。
+喜欢写点东西，维护个人公众号：「程序员MurphyGao」，专注分享后端技术，偶尔也会碎碎念，欢迎关注。
 
 ![](https://typora-gao-pic.oss-cn-beijing.aliyuncs.com/qrcode_for_gh_356d7e27a22b_258-20231020230523761.jpg)
 
