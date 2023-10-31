@@ -5,7 +5,7 @@
 
 ## [作者介绍](https://github.com/yessimida/interview-of-legends/tree/master#作者介绍)
 
-我是 MurphyGao，某互联网大厂程序员，先后在小米、百度、滴滴任职过，在北京生活了两年半，现居杭州。
+我是 MurphyGao，某互联网大厂程序员，先后在小米、百度、滴滴任职，在北京生活了两年半，现居杭州。
 
 喜欢写点东西，维护个人公众号：「程序员MurphyGao」，专注分享后端技术，偶尔也会碎碎念，欢迎关注。
 
