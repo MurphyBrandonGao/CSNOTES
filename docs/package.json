@@ -5,9 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build src",
+    "docs:build": "vuepress build docs/src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
-    "docs:dev": "vuepress dev src"
+    "docs:dev": "vuepress dev docs/src"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.60",
