@@ -1,0 +1,17 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: actions/checkout@v3
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: vuepress-deploy
+      uses: MurphyBrandonGao/github-pages-deploy-actions@v4
+      env:
+        ACCESS_TOKEN: ${{ secrets.TITLE }}
+        TARGET_REPO: MurphyBrandonGao/CSNOTES
+        TARGET_BRANCH: main
+        BUILD_SCRIPT: yarn && yarn docs:build
+        BUILD_DIR: docs/.vuepress
