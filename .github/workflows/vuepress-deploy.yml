@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: MurphyBrandonGao/CSNOTES
 
     - name: vuepress-deploy
       uses: MurphyBrandonGao/CSNOTES
