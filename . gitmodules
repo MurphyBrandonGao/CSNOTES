@@ -1,0 +1,4 @@
+[submodule "libary"]
+	path = docs/docs/src/.vuepress
+	branch = main
+	url = https://github.com/MurphyBrandonGao/CSNOTES.git
