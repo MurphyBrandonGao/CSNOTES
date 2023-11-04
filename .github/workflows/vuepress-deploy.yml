@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: MurphyBrandonGao/CSNOTES@main
+      uses: MurphyBrandonGao/CSNOTES@master
 
     - name: vuepress-deploy
-      uses: MurphyBrandonGao/CSNOTES@main
+      uses: MurphyBrandonGao/CSNOTES@master
       env:
         ACCESS_TOKEN: ${{ secrets.TITLE }}
         TARGET_REPO: MurphyBrandonGao/CSNOTES
