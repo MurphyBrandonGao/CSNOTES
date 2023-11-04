@@ -8,7 +8,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: vuepress-deploy
-      uses: MurphyBrandonGao/github-pages-deploy-actions@v4
+      uses: MurphyBrandonGao/CSNOTES
       env:
         ACCESS_TOKEN: ${{ secrets.TITLE }}
         TARGET_REPO: MurphyBrandonGao/CSNOTES
