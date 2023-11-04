@@ -14,4 +14,4 @@ jobs:
         TARGET_REPO: MurphyBrandonGao/CSNOTES
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_DIR: /.vuepress/dist/
+        BUILD_DIR: CSNOTES/docs/docs/src/.vuepress/dist/
